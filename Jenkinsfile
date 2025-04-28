@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/mdmahmood-dev-Engi/hiring-app.git' // Replace with your repo URL
+                    url: 'https://github.com/mdmahmood-dev-Engi/hiring-app-new.git' // Replace with your repo URL
             }
         }
         stage('Build with Maven') {
